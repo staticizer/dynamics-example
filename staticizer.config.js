@@ -12,5 +12,18 @@ module.exports = {
                 title: 'Sz Dynamics Demo'
             }
         }
+    },
+
+    dynamics: {
+        product_id: [
+            {
+                name: 'A Box',
+                description: 'A red box with cat inside'
+            },
+            {
+                name: 'A Teapon',
+                description: 'A teapout found on orbit between Mars and Jupyter'
+            }
+        ]
     }
 };

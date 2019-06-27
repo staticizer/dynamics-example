@@ -1,0 +1,11 @@
+{{#with dynamics.product_id.value}}
+{{set_title name}}
+<h2>Edit {{name}}</h2>
+
+<input type="text" value="{{name}}">
+<textarea name="description">{{description}}</textarea>
+{{/with}}
+
+{{#with dynamics.product_id.key}}
+<a href="/products/{{this}}/">Back to page</a>
+{{/with}}
