@@ -1,5 +1,7 @@
 <h2>Products List</h2>
 
-{{#each _dynamics.product_id.entries}}
-    <a href="/products/{{key}}/">{{value.name}}</a>
-{{/each}}
+<ul>
+    {{#each dynamics.product_id.entries}}
+        <li><a href="/products/{{key}}/">{{value.name}}</a></li>
+    {{/each}}
+</ul>

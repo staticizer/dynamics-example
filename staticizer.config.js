@@ -1,5 +1,5 @@
 module.exports = {
-    // mode: 'production',
+    mode: 'development',
     output: {
         assetsPrefix: 'assets',
         staticPrefix: false,
@@ -15,15 +15,18 @@ module.exports = {
     },
 
     dynamics: {
-        product_id: [
-            {
-                name: 'A Box',
-                description: 'A red box with cat inside'
-            },
-            {
-                name: 'A Teapon',
-                description: 'A teapout found on orbit between Mars and Jupyter'
-            }
-        ]
+        product_id: {
+            values: [
+                {
+                    name: 'A Box',
+                    description: 'A red box with cat inside'
+                },
+                {
+                    name: 'A Teapot',
+                    description: 'A teapot found on orbit between Mars and Jupyter'
+                }
+            ],
+            mode: 'keys'
+        }
     }
 };
