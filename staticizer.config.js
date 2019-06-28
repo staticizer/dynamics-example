@@ -27,6 +27,10 @@ module.exports = {
                 }
             ],
             mode: 'keys'
+        },
+        color: {
+            values: ['black', 'blue', 'red'],
+            mode: 'values'
         }
     }
 };
