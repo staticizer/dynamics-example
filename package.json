@@ -12,5 +12,8 @@
     "staticizer"
   ],
   "author": "BobNobrain",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "staticizer": "^0.1.0"
+  }
 }
